@@ -18,7 +18,7 @@ Three models were tested: ERNIE, XLNet, and RoBERTa.
 These models used tokenization and were optimized using techniques like early stopping, learning rate reduction, and checkpointing.
 ## Model Evaluation:
 
-RoBERTa achieved the highest accuracy of 85.09% with strong precision and recall.
+RoBERTa achieved the highest accuracy of 85.98% with strong precision and recall.
 Overfitting was observed across models, as training accuracy exceeded validation accuracy. Techniques like regularization and dropout were recommended to mitigate this.
 ## Key Findings:
 RoBERTa was the best-performing model, with a validation accuracy of 85.98%.
